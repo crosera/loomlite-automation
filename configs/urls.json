@@ -1,0 +1,5 @@
+{
+    "home": "https://loomlite-test.netlify.app",
+    "login": "/auth/login",
+    "homepage": "/app"
+}
