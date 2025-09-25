@@ -8,6 +8,10 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    env:
+      CI: true
+      DISCORD_USERNAME: ${{ vars.DISCORD_USERNAME }}
+      PASSWORD: ${{ secrets.PASSWORD }}
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
@@ -16,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+      run: npx playwright install chromium --with-deps
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4
@@ -25,7 +29,3 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
-      env:
-        CI: true
-        DISCORD_USERNAME: ${{ vars.DISCORD_USERNAME }}
-        PASSWORD: ${{ secrets.PASSWORD }}
