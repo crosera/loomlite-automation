@@ -25,3 +25,7 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+      env:
+        CI: true
+        DISCORD_USERNAME: ${{ vars.DISCORD_USERNAME }}
+        PASSWORD: ${{ secrets.PASSWORD }}
