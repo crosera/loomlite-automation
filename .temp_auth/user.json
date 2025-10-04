@@ -1,0 +1,200 @@
+{
+  "cookies": [
+    {
+      "name": "__dcfduid",
+      "value": "e3f4c02ca14211f08a584278a0f8abc2",
+      "domain": "discord.com",
+      "path": "/",
+      "expires": 1794156910.515521,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__sdcfduid",
+      "value": "e3f4c02ca14211f08a584278a0f8abc2def1cd315d988c649f230d0fd8156a314a13cf4df31340c4d3e524ea0e603a5b",
+      "domain": "discord.com",
+      "path": "/",
+      "expires": 1794156910.516136,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cf_clearance",
+      "value": "R6kyAwKKAdUICP8I0x5kXYWxvmshrW0QpoIUAu39_zM-1759596913-1.2.1.1-FUSI6jcsMXXh8P.9qPfqjUDGR9_pcd1z6oCBS6NeGnZFOiajpC08F9dK_AiMBPDkm2cpSgBbKdY0amxi8WaqAtJacq3lEFzONar7yIJz0N4z63lxQde3GU0tGZGoYFxvcYdJy9dKJ8HmBimtFgCMJu4ebHDp277TPbp1it8NJbrz8AbKiO2Gpy8Q20jxPKxGQImQNKRjy4kh7l0Gry0y8VPR3DEe46ut7FadNGF0MTU",
+      "domain": ".discord.com",
+      "path": "/",
+      "expires": 1791132912.449877,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://discord.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "__cf_bm",
+      "value": "gsj7eK82zpWFOATKDfHVcaD6Mnt4aEoFO.RN0_4DHKw-1759596916-1.0.1.1-nEKnKtWDXc5Wzask60Wkud3IcgYBkk9Bsg.6QQlNzRmJ_0l0CcFTVelAuU5QO8eEAXf2xmhXVGZxbEo6nky5vj_dbuEpheCgniXlOG95KNQ",
+      "domain": ".discord.gg",
+      "path": "/",
+      "expires": 1759598715.268386,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "ju1lU8BT34019W7UjXVurMaw17._v8yPJFDl65TXO8Y-1759596918-1.0.1.1-rZdJXFlyKYIKng1rBRI0IhaD51raNEZaVjhG6i_PgSjwOFSv5OoycR9_VRVQ7DJTmAnKDCMvQ4WkiLS21HHUXDA6qph1FdgvJJYnFDUQRj8",
+      "domain": ".discordapp.com",
+      "path": "/",
+      "expires": 1759598717.212435,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "64WTe4yrDz0mznnj6qZkcU7RyCFO19L3S5hmLlmRXOE-1759596918002-0.0.1.1-604800000",
+      "domain": ".discordapp.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "HQkjeaJ_taE69l8HhEXIlC0AKN4V4kMr6wBdxYQilaA-1759596919708-0.0.1.1-604800000",
+      "domain": ".discord.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://loomlite-test.netlify.app",
+      "localStorage": [
+        {
+          "name": "sb-aqlzpcgmtxpeolurlfpw-auth-token",
+          "value": "{\"provider_token\":\"MTM4MjA1Mjg0MzAxNTYzNTA2NQ.0WzE7xHDSbRQ2vwXwHhyOZ3aVHBHpZ\",\"provider_refresh_token\":\"3kerdnhMXzhi2JdVy1G6Z5lLE8dmQ6\",\"access_token\":\"eyJhbGciOiJIUzI1NiIsImtpZCI6IlhudE5OQzJYSUtZOVA5bzAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FxbHpwY2dtdHhwZW9sdXJsZnB3LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJjNzM2MzFjMi1lZmI1LTQ0NmUtOWFmMS03ODRjYTRjMGJlNzciLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU5NjAwNTE5LCJpYXQiOjE3NTk1OTY5MTksImVtYWlsIjoiY3Jvc2VyYTNAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJnb29nbGUiLCJwcm92aWRlcnMiOlsiZ29vZ2xlIiwiZGlzY29yZCJdfSwidXNlcl9tZXRhZGF0YSI6eyJhdmF0YXJfdXJsIjoiaHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXZhdGFycy8xODc2ODA1MzY2MzI4ODUyNDkvNDI4ODI5ZTdiZmQwYWYxM2NmYWQyYTBjMTQyNjE5ZGQucG5nIiwiY3VzdG9tX2NsYWltcyI6eyJnbG9iYWxfbmFtZSI6IkNyb3NlcmEifSwiZW1haWwiOiJjcm9zZXJhM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZnVsbF9uYW1lIjoiY3Jvc2VyYSIsImlzcyI6Imh0dHBzOi8vZGlzY29yZC5jb20vYXBpIiwibmFtZSI6ImNyb3NlcmEjMCIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6Imh0dHBzOi8vY2RuLmRpc2NvcmRhcHAuY29tL2F2YXRhcnMvMTg3NjgwNTM2NjMyODg1MjQ5LzQyODgyOWU3YmZkMGFmMTNjZmFkMmEwYzE0MjYxOWRkLnBuZyIsInByb3ZpZGVyX2lkIjoiMTg3NjgwNTM2NjMyODg1MjQ5Iiwic3ViIjoiMTg3NjgwNTM2NjMyODg1MjQ5In0sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoib2F1dGgiLCJ0aW1lc3RhbXAiOjE3NTk1OTY5MTl9XSwic2Vzc2lvbl9pZCI6IjI5MmM1YzE3LTNmZmMtNDdmZi05Mjc0LTczYWZlZDM5OTkxMiIsImlzX2Fub255bW91cyI6ZmFsc2V9.mb25SgAEJ97Gn9qm2LwnrAsVBRSbkNP7WLDb4cBqCuw\",\"expires_in\":3600,\"expires_at\":1759600519,\"refresh_token\":\"pbaq25w5qkjq\",\"token_type\":\"bearer\",\"user\":{\"id\":\"c73631c2-efb5-446e-9af1-784ca4c0be77\",\"aud\":\"authenticated\",\"role\":\"authenticated\",\"email\":\"crosera3@gmail.com\",\"email_confirmed_at\":\"2025-09-25T15:48:31.111232Z\",\"phone\":\"\",\"confirmed_at\":\"2025-09-25T15:48:31.111232Z\",\"last_sign_in_at\":\"2025-10-04T16:55:19.619874Z\",\"app_metadata\":{\"provider\":\"google\",\"providers\":[\"google\",\"discord\"]},\"user_metadata\":{\"avatar_url\":\"https://cdn.discordapp.com/avatars/187680536632885249/428829e7bfd0af13cfad2a0c142619dd.png\",\"custom_claims\":{\"global_name\":\"Crosera\"},\"email\":\"crosera3@gmail.com\",\"email_verified\":true,\"full_name\":\"crosera\",\"iss\":\"https://discord.com/api\",\"name\":\"crosera#0\",\"phone_verified\":false,\"picture\":\"https://cdn.discordapp.com/avatars/187680536632885249/428829e7bfd0af13cfad2a0c142619dd.png\",\"provider_id\":\"187680536632885249\",\"sub\":\"187680536632885249\"},\"identities\":[{\"identity_id\":\"70da730c-a258-4317-a784-b5300440df2b\",\"id\":\"105932537988303479318\",\"user_id\":\"c73631c2-efb5-446e-9af1-784ca4c0be77\",\"identity_data\":{\"avatar_url\":\"https://lh3.googleusercontent.com/a/ACg8ocJZacTM5cV0un0fayQ_8WSO5MCdcajNMVh2LZKKXBEUTlUtKQ=s96-c\",\"email\":\"crosera3@gmail.com\",\"email_verified\":true,\"full_name\":\"Chris Rosera (Crosera)\",\"iss\":\"https://accounts.google.com\",\"name\":\"Chris Rosera (Crosera)\",\"phone_verified\":false,\"picture\":\"https://lh3.googleusercontent.com/a/ACg8ocJZacTM5cV0un0fayQ_8WSO5MCdcajNMVh2LZKKXBEUTlUtKQ=s96-c\",\"provider_id\":\"105932537988303479318\",\"sub\":\"105932537988303479318\"},\"provider\":\"google\",\"last_sign_in_at\":\"2025-09-25T15:48:31.105886Z\",\"created_at\":\"2025-09-25T15:48:31.105989Z\",\"updated_at\":\"2025-10-04T16:16:41.98736Z\",\"email\":\"crosera3@gmail.com\"},{\"identity_id\":\"1ca92745-3b8c-4871-b388-5b2eb02d526b\",\"id\":\"187680536632885249\",\"user_id\":\"c73631c2-efb5-446e-9af1-784ca4c0be77\",\"identity_data\":{\"avatar_url\":\"https://cdn.discordapp.com/avatars/187680536632885249/428829e7bfd0af13cfad2a0c142619dd.png\",\"custom_claims\":{\"global_name\":\"Crosera\"},\"email\":\"crosera3@gmail.com\",\"email_verified\":true,\"full_name\":\"crosera\",\"iss\":\"https://discord.com/api\",\"name\":\"crosera#0\",\"phone_verified\":false,\"picture\":\"https://cdn.discordapp.com/avatars/187680536632885249/428829e7bfd0af13cfad2a0c142619dd.png\",\"provider_id\":\"187680536632885249\",\"sub\":\"187680536632885249\"},\"provider\":\"discord\",\"last_sign_in_at\":\"2025-09-25T16:37:10.017157Z\",\"created_at\":\"2025-09-25T16:37:10.017222Z\",\"updated_at\":\"2025-10-04T16:55:19.61448Z\",\"email\":\"crosera3@gmail.com\"}],\"created_at\":\"2025-09-25T15:48:31.098331Z\",\"updated_at\":\"2025-10-04T16:55:19.622772Z\",\"is_anonymous\":false}}"
+        }
+      ]
+    },
+    {
+      "origin": "https://discord.com",
+      "localStorage": [
+        {
+          "name": "tokens",
+          "value": "{}"
+        },
+        {
+          "name": "StreamerModeStore",
+          "value": "{\"_state\":{\"187680536632885249\":{\"enabled\":false,\"autoToggle\":true,\"hideInstantInvites\":true,\"hidePersonalInformation\":true,\"disableSounds\":true,\"disableNotifications\":true,\"enableContentProtection\":false}},\"_version\":1}"
+        },
+        {
+          "name": "UserSettingsOverridesStore",
+          "value": "{\"_state\":{},\"_version\":1}"
+        },
+        {
+          "name": "keyboard-layout-map",
+          "value": "{\"0\":48,\"1\":49,\"2\":50,\"3\":51,\"4\":52,\"5\":53,\"6\":54,\"7\":55,\"8\":56,\"9\":57,\"backspace\":8,\"tab\":9,\"enter\":13,\"shift\":16,\"ctrl\":17,\"alt\":18,\"pause/break\":19,\"caps lock\":20,\"esc\":27,\"space\":32,\"page up\":33,\"page down\":34,\"end\":35,\"home\":36,\"left\":37,\"up\":38,\"right\":39,\"down\":40,\"insert\":45,\"delete\":46,\"command\":91,\"left command\":91,\"right command\":93,\"numpad *\":106,\"numpad +\":107,\"numpad -\":109,\"numpad .\":110,\"numpad /\":111,\"num lock\":144,\"scroll lock\":145,\"my computer\":182,\"my calculator\":183,\";\":186,\"=\":187,\",\":188,\"-\":189,\".\":190,\"/\":191,\"`\":192,\"[\":219,\"\\\\\":220,\"]\":221,\"'\":222,\"a\":65,\"b\":66,\"c\":67,\"d\":68,\"e\":69,\"f\":70,\"g\":71,\"h\":72,\"i\":73,\"j\":74,\"k\":75,\"l\":76,\"m\":77,\"n\":78,\"o\":79,\"p\":80,\"q\":81,\"r\":82,\"s\":83,\"t\":84,\"u\":85,\"v\":86,\"w\":87,\"x\":88,\"y\":89,\"z\":90,\"f1\":112,\"f2\":113,\"f3\":114,\"f4\":115,\"f5\":116,\"f6\":117,\"f7\":118,\"f8\":119,\"f9\":120,\"f10\":121,\"f11\":122,\"f12\":123,\"numpad 0\":96,\"numpad 1\":97,\"numpad 2\":98,\"numpad 3\":99,\"numpad 4\":100,\"numpad 5\":101,\"numpad 6\":102,\"numpad 7\":103,\"numpad 8\":104,\"numpad 9\":105,\"windows\":91,\"⇧\":16,\"⌥\":18,\"⌃\":17,\"⌘\":91,\"ctl\":17,\"control\":17,\"option\":18,\"pause\":19,\"break\":19,\"caps\":20,\"return\":13,\"escape\":27,\"spc\":32,\"spacebar\":32,\"pgup\":33,\"pgdn\":34,\"ins\":45,\"del\":46,\"cmd\":91}"
+        },
+        {
+          "name": "ApplicationStreamingStore",
+          "value": "{\"_state\":{\"selfStreamParticipantsHidden\":{}},\"_version\":0}"
+        },
+        {
+          "name": "SelectedChannelStore",
+          "value": "{\"selectedChannelId\":null,\"selectedVoiceChannelId\":null,\"lastChannelFollowingDestination\":{},\"selectedChannelIds\":{},\"mostRecentSelectedTextChannelIds\":{},\"knownThreadIds\":[]}"
+        },
+        {
+          "name": "PromotionsPersistedStore",
+          "value": "{\"_state\":{\"hasFetchedConsumedInboundPromotionId\":true,\"consumedInboundPromotionId\":null,\"lastSeenOutboundPromotionStartDate\":null},\"_version\":1}"
+        },
+        {
+          "name": "AppIconPersistedStoreState",
+          "value": "{\"_state\":{\"client\":{\"desktop\":\"AppIcon\",\"coachmarkImpressions\":2}},\"_version\":0}"
+        },
+        {
+          "name": "OverlayStore6",
+          "value": "{\"legacyEnabled\":false,\"oopEnabled\":false}"
+        },
+        {
+          "name": "MultiAccountStore",
+          "value": "{\"_state\":{\"users\":[],\"canUseMultiAccountMobile\":false},\"_version\":1}"
+        },
+        {
+          "name": "UserOfferStore",
+          "value": "{\"_state\":{\"userTrialOffers\":{},\"userDiscountOffers\":{},\"isFetching\":false,\"lastFetchSuccessful\":false},\"_version\":3}"
+        },
+        {
+          "name": "UnsyncedUserSettingsStore",
+          "value": "{\"_state\":{\"darkSidebar\":false},\"_version\":2}"
+        },
+        {
+          "name": "deviceProperties",
+          "value": "{\"os\":\"Windows\",\"browser\":\"Chrome\",\"device\":\"\",\"system_locale\":\"en-US\",\"has_client_mods\":false}"
+        },
+        {
+          "name": "ApexExperimentStore",
+          "value": "{\"_state\":{\"version\":1,\"evaluatedExperiments\":{\"user\":{},\"guild\":{}},\"clientOverrides\":{}},\"_version\":0}"
+        },
+        {
+          "name": "OverlayStoreV2",
+          "value": "{\"_state\":{\"187680536632885249\":{\"selectedGuildId\":null,\"selectedChannelId\":null,\"displayUserMode\":\"ALWAYS\",\"displayNameMode\":\"ALWAYS\",\"avatarSizeMode\":\"large\",\"notificationPositionMode\":\"topLeft\",\"textChatNotifications\":\"ENABLED\",\"disableExternalLinkAlert\":false,\"disablePinTutorial\":false,\"showKeybindIndicators\":true,\"disableClickableRegions\":false,\"textWidgetOpacity\":0.25,\"showGameInviteNotification\":true}},\"_version\":2}"
+        },
+        {
+          "name": "ClientThemesBackgroundStore",
+          "value": "{\"_state\":{},\"_version\":0}"
+        },
+        {
+          "name": "OverridePremiumTypeStore",
+          "value": "{\"_state\":{\"premiumTypeActual\":2},\"_version\":1}"
+        },
+        {
+          "name": "LayoutStore",
+          "value": "{\"_state\":{\"layouts\":{},\"widgets\":{}},\"_version\":4}"
+        },
+        {
+          "name": "keybinds",
+          "value": "{\"_state\":{\"0\":{\"id\":\"0\",\"enabled\":true,\"action\":\"SOUNDBOARD_HOLD\",\"shortcut\":[[0,17,4],[0,192,4]],\"managed\":true,\"params\":{}},\"1\":{\"id\":\"1\",\"enabled\":true,\"action\":\"SAVE_CLIP\",\"shortcut\":[[0,18,4],[0,67,4]],\"managed\":true,\"params\":{}}},\"_version\":5}"
+        },
+        {
+          "name": "token",
+          "value": "\"MTg3NjgwNTM2NjMyODg1MjQ5.G88aFD.LcLgoUmgKUkxmZbdh1qkycw5HlW3SkVjUYJBpg\""
+        },
+        {
+          "name": "DeveloperOptionsStore",
+          "value": "{\"trace\":false,\"canary\":false,\"logGatewayEvents\":false,\"logOverlayEvents\":false,\"logAnalyticsEvents\":false,\"sourceMapsEnabled\":false,\"axeEnabled\":false,\"cssDebuggingEnabled\":false,\"layoutDebuggingEnabled\":false,\"analyticsDebuggerEnabled\":false,\"bugReporterEnabled\":true,\"idleStatusIndicatorEnabled\":false,\"onlyShowPreviewAppCollections\":false,\"disableAppCollectionsCache\":false,\"isStreamInfoOverlayEnabled\":false,\"preventPopoutClose\":false,\"logKeyboardMismatches\":false}"
+        },
+        {
+          "name": "OverlaySettingsStore",
+          "value": "{\"_state\":{\"gameSettings\":{},\"notificationSettings\":[]},\"_version\":1}"
+        },
+        {
+          "name": "referralProperties",
+          "value": "{\"referrer\":\"https://loomlite-test.netlify.app/\",\"referring_domain\":\"loomlite-test.netlify.app\"}"
+        },
+        {
+          "name": "BrowserHandoffStore",
+          "value": "false"
+        },
+        {
+          "name": "PhoneStore",
+          "value": "{\"_state\":{},\"_version\":0}"
+        },
+        {
+          "name": "user_id_cache",
+          "value": "\"187680536632885249\""
+        },
+        {
+          "name": "DraftStore",
+          "value": "{\"_state\":{},\"_version\":2}"
+        }
+      ]
+    }
+  ]
+}

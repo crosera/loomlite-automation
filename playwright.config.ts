@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import urls from './configs/urls.json';
 
 /**
  * Read environment variables from file.
@@ -27,19 +28,31 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://localhost:3000',
+    baseURL: urls.base.url,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    video: "on"
+    video: {
+      mode: "on"
+    },
+    contextOptions: {
+      recordVideo: {
+        dir: 'test-results',
+      }
+    },
   },
 
   /* Configure projects for major browsers */
   projects: [
+    { name: 'setup', testMatch: /auth\.setup\.ts/ },
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    },
+      workers: 12,
+      use: { ...devices['Desktop Chrome'],
+        storageState: '.temp_auth/user.json'
+       },
+      // dependencies: ['setup'],
+    }
 
     // {
     //   name: 'firefox',

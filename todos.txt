@@ -1,0 +1,3 @@
+Finish figuring out auth/setup process. Need to make it automatically log in once before all tests. Right now its using a static one we run manually.
+
+Make login tests skip auth process.

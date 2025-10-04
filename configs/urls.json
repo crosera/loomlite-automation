@@ -1,5 +1,27 @@
 {
-    "home": "https://loomlite-test.netlify.app",
-    "login": "/auth/login",
-    "homepage": "/app"
+    "base": {
+        "title": "Loomlite - TTRPG Campaign Manager",
+        "url": "https://loomlite-test.netlify.app",
+        "description": "LoomLite Test Environment"
+    },
+    "home": {
+        "title": "LoomLite Test Environment",
+        "url": "/home",
+        "description": "LoomLite Test Environment"
+    },
+    "login":{
+        "title": "LoomLite Test Environment",
+        "url": "/auth/login",
+        "description": "Login pages"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "url": "/app",
+        "description": "Dashboard page after login"
+    },
+    "registration": {
+        "title": "LoomLite - Register",
+        "url": "/auth/register",
+        "description": "Registration page"
+    }
 }
